@@ -56,6 +56,10 @@ table {
 	object-fit: cover;
 	opacity:0.2;
 }
+video::-webkit-media-controls-start-playback-button {
+    display: none;
+}
+
 
 body {
 	-webkit-text-size-adjust: none;
@@ -2641,7 +2645,7 @@ input, select, textarea {
 		.image.main {
 			display: block;
 			margin: 2rem auto;
-			width: 50%;
+			width: 100%;
 
 		}
 
