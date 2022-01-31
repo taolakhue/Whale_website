@@ -15,44 +15,11 @@
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
 
+    <title>Genesis collection</title>
   </head>
-  <body> 
-    <h3><center>JavaScript Click Counter</center></h3>
-<div>
-    <center><h3 id="counter-label">0</h3></center>
-</div>
-<center>
-    <div>
-        <button onclick="resetCounter()">Reset</button>
-        <button onclick="decrementClick()">-</button>
-        <button onclick="incrementClick()">+</button>
-    </div>
-</center>
+  <body>
 
-<script>
-  var counterVal = 0;
 
-function incrementClick() {
-  if (counterVal >=0){
-    updateDisplay(++counterVal);
-  }
-}
-
-function resetCounter() {
-    counterVal = 0;
-    updateDisplay(counterVal);
-}
-
-function decrementClick(){
-  if (counterVal >=1){
-    updateDisplay(--counterVal);
-  }
-}
-
-function updateDisplay(val) {
-    document.getElementById("counter-label").innerHTML = val;
-}
-</script>
     <div class="site-mobile-menu">
       <div class="site-mobile-menu-header">
         <div class="site-mobile-menu-close mt-3">
