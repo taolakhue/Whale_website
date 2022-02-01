@@ -143,6 +143,12 @@ input, select, textarea {
 
 		}
 
+
+		body {
+			background-image: url("../../images-mint/a.png");
+			background-color: #b30b0b;
+		   }
+
 	body {
 		color: #212931;
 	}
